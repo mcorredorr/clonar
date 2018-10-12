@@ -26,27 +26,17 @@ body {
   padding: 30px;
     }
 
-.container1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 120px;
-  }
-
-  
-
 .principal {
   background-image: url(img/fondo.jpg);
   background-position: center -6.57143rem;
   background-size: initial;
   padding-bottom: 17.71429rem;
   flex-direction: column;
+  padding: 10px;
+  margin-left: 300px;
+  margin-right: 20px;
   }
 
-
-p{
-  font-size: 20px;
-}
 
 .btn-principal {
   z-index: 2;
@@ -71,9 +61,8 @@ p{
   width: auto;
   position: sticky;
   bottom: -14.28571rem;
-  justify-content: right;
-  column: right;
-}
+  display: flex;
+  }
 
 .manual-card {
   background-color: #fff;
