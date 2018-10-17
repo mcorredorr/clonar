@@ -24,14 +24,18 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding: 30px;
+  margin-left: 200px;
+  margin-right: 300px;
     }
 
 .principal {
+  display: flex;
+  flex-direction: row;
   background-image: url(img/fondo.jpg);
   background-position: center -6.57143rem;
   background-size: initial;
   padding-bottom: 17.71429rem;
-  flex-direction: column;
+  flex-direction: row;
   padding: 10px;
   margin-left: 300px;
   margin-right: 20px;
@@ -65,17 +69,22 @@ body {
   }
 
 .manual-card {
+  display: flex;
   background-color: #fff;
   border: 1px solid #dedede;
   position: relative;
-  z-index: 2;
+  z-index: 5;
   top: -5.71429rem;
   margin-bottom: -5.71429rem;
-}
+  padding: 10px;
+  justify-content: space-around;
+  padding-right: 30px;
+  padding-left: -0px;
+  }
 
 .img-card {
   padding: 0px;
-}
+ }
 
 .img-width {
   width: 4.5rem;
@@ -89,3 +98,12 @@ body {
   margin: 0 auto;
   border-radius: 100%;
 }
+
+.porcentajes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  margin-left: 120px;
+  margin-right: 130px;
+    }
